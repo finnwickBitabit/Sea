@@ -8,11 +8,12 @@ import {
 } from "@aws-sdk/lib-dynamodb";
 const TABLE = "animals";
 
+
 const client = new DynamoDBClient({
-  region: import.meta.env.VITE_AWS_REGION,
+  region: "us-east-1",
   credentials: {
-    accessKeyId: import.meta.env.VITE_AWS_ACCESS_ID,
-    secretAccessKey: import.meta.env.VITE_AWS_SECRET_KEY,
+    accessKeyId: "KIASRKZQBLOWBPHW7UI",
+    secretAccessKey: "cBFYdeOhFlhgLQisJZuNn9QPk1f5QtHXvyJGuksX",
   },
 });
 
