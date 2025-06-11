@@ -88,6 +88,7 @@ export default function AnimalModal({ show, onHide, form, onChange, onSave }) {
           >
             Save Animal
           </Button>
+          debugger;
         </Modal.Footer>
       </Modal.Dialog>
     </Modal>
