@@ -2,6 +2,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import { Form } from "react-bootstrap";
 
+
 export default function AnimalModal({ show, onHide, form, onChange, onSave }) {
   
   return (
@@ -83,12 +84,12 @@ export default function AnimalModal({ show, onHide, form, onChange, onSave }) {
             Cancel
           </Button>
           <Button
+          className="ruff"
             onClick={onSave}
             variant="primary"
           >
             Save Animal
           </Button>
-          debugger;
         </Modal.Footer>
       </Modal.Dialog>
     </Modal>

@@ -15,7 +15,7 @@ const client = new DynamoDBClient({
     secretAccessKey: import.meta.env.VITE_AWS_SECRET_KEY,
   },
 });
-// process === import.meta
+
 
 const docClient = DynamoDBDocumentClient.from(client);
 

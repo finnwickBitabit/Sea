@@ -32,7 +32,7 @@ function App() {
     setForm((prev) => {
       return {
         ...prev,
-        [name]: type === "checkbox" ? checked : value,
+        [name]: type === "checkbox" ? checked : value
       };
     });
   }
@@ -81,7 +81,7 @@ function App() {
 
   return (
     <>
-      <h1>Fur-Ever Friends Rescue</h1>
+      <h1>Pawsome Pets</h1>
       <main className='mt-20 flex flex-column text-center'>
         <Button
           className='m-auto'

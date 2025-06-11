@@ -40,7 +40,7 @@ export default function Animals({
                   Edit
                 </Button>
               </div>
-              <div className="">
+              <div className="ruff">
                 <div>
                   <strong>{animal.name}</strong> - {animal.species}, age{" "}
                   {animal.age}
